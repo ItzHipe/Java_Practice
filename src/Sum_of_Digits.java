@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class Sum_of_Digits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int a = sc.nextInt();
-        int fact = 1;
-        for(int i=1;i<=a;i++)
-            fact *= i;
-        System.out.println("Factorial of "+a+" is "+fact);
+        int sum = 0;
+        while(a>0){
+            sum = sum + a%10;
+            a = a/10;
+        }
+        System.out.println("Sum of digits is " + sum);
     }
 }

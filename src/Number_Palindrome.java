@@ -10,7 +10,7 @@ public class Number_Palindrome {
         while(a>0)
         {
             c = c*10 + a%10;
-            a = a/10;
+            a /= 10;
         }
         if(b==c)
             System.out.println("The number is a palindrome");

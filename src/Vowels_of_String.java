@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Vowels_Of_String {
+public class Vowels_of_String {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string");
