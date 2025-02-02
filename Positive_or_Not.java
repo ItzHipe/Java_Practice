@@ -11,5 +11,6 @@ public class Positive_or_Not {
             System.out.println("Zero");
         else
             System.out.println("Negative");
+        sc.close();
     }
 }

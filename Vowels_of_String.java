@@ -13,5 +13,6 @@ public class Vowels_of_String {
                 System.out.println(ch);
             }
         }
+        sc.close();
     }
 }

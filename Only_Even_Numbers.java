@@ -8,5 +8,6 @@ public class Only_Even_Numbers {
         for(int i=1;i<=a;i++)
             if(i%2==0)
                 System.out.println(i);
+        sc.close();
     }
 }

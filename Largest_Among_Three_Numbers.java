@@ -13,5 +13,6 @@ public class Largest_Among_Three_Numbers {
             System.out.println("Largest number is " + b);
         else
             System.out.println("Largest number is " + c);
+        sc.close();
     }
 }

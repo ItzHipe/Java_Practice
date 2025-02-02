@@ -11,8 +11,10 @@ public class String_Palindrome {
             if(s.charAt(i)!=s.charAt(l-i))
             {
                 System.out.println("Not a palindrome");
+                sc.close();
                 return;
             }
         }
+        sc.close();
     }
 }

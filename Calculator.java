@@ -22,5 +22,6 @@ public class Calculator {
             case 4:
                 System.out.println("Division is " + (a/b));
         }
+        sc.close();
     }
 }
